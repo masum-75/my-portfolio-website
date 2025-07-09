@@ -4,14 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/portfolio.css">
 </head>
-<body>
-    <header>
+<body class="open-sans">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">su</span>m</h3>
+            <ul>
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2" href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I'm</h4>
+                <h1 class="banner-title">Masum</h1>
+                <p class="banner-description">I’m a skilled Web Developer and SEO Specialist with a passion for building user-friendly websites and helping businesses grow online. I create fast, responsive, and SEO-optimized websites that not only look great but also rank well on search engines. With a strong focus on performance and visibility, I help brands improve their digital presence and reach their target audience effectively.</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+
+            </div>
+            <img class="banner-profile-pic" src="images/Masum.png" alt="Masum">
+        </div>
 
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">Hi, I’m Masum — a Web Developer and SEO Specialist. I create fast, responsive, and SEO-optimized websites that help businesses grow online. With a focus on performance and visibility, I build digital solutions that attract traffic and drive results.</p>
+            <div class="about-items">
+               <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Tanbir</p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">Tanbirmasum014@mail.com</p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">Date Of Birth</p>
+                <p class="item-description">May 22,1999</p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Dhaka</p>
+               </div>
+            </div>
+
+        </section>
+        <!-- what i do section start -->
+         <section class="skills">
+            <h3 class="section-title text-center">What I Do</h3>
+            <p class="section-description text-center">I design and develop fast, responsive websites and help businesses grow with smart SEO strategies. From website creation to Google rankings, I provide complete digital solutions to boost your online presence.</p>
+
+            <div class="skill-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vannilla Javascript</h4>
+                    <div class="skill-description">I use core JavaScript to build dynamic, interactive features on websites without relying on heavy libraries. From DOM manipulation to working with APIs and ES6+ syntax, it’s my go-to for clean, functional logic.</div>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <div class="skill-description">React helps me create fast, modular web apps with reusable components. I enjoy working with hooks, managing state, and building responsive user interfaces that feel smooth and modern.</div>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <div class="skill-description">With Node.js, I build scalable backend services and RESTful APIs. Whether it’s handling requests, working with middleware, or setting up Express routes, it allows me to power full-stack applications efficiently.
+
+</div>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <div class="skill-description">I use MongoDB to store and manage application data in a flexible, document-based format. It integrates smoothly with Node.js, and Mongoose makes modeling and validating data simple and powerful.</div>
+                </div>
+            </div>
+
+
+         </section>
+
+        </section>
+        <section class="resume">
+            <h3 class="section-title text-center">A summary of my resume</h3>
+            <div class="resume-container">
+                <div class="resume-colum">
+                    <h3 class="resume-colum-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Master in Computer Engineering</h4>
+                        <h5 class="experience-sub-title">North-South University / 2024 - Present</h5>
+                        <experience-description>List skill/technologies here. You can change the icon above 
+                         to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</experience-description>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Full-Stack Web Development</h4>
+                        <h5 class="experience-sub-title">Self-Taught / 2019 – 2023</h5>
+                        <experience-description>Learned HTML, CSS, JavaScript, React, Node.js, and MongoDB through online platforms and hands-on projects.</experience-description>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">SEO & Digital Marketing Certification</h4>
+                        <h5 class="experience-sub-title">Google Digital Garage / 2023</h5>
+                        <experience-description>Completed SEO training with focus on On-page, Off-page, and Technical SEO strategies.</experience-description>
+                    </div>
+                </div>
+                <div class="resume-colum">
+                    <h3 class="resume-colum-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Web Developer & SEO Specialist</h4>
+                        <h5 class="experience-sub-title">PlanForSEO / 2022 – Present</h5>
+                        <experience-description>Developed fast, responsive websites and improved SEO rankings for businesses through keyword strategy and audits.</experience-description>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">WordPress Developer</h4>
+                        <h5 class="experience-sub-title">Freelancer / 2021 – Present</h5>
+                        <experience-description>Created custom websites for clients using WordPress. Focused on performance, mobile responsiveness, and SEO.</experience-description>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">HTML Developer</h4>
+                        <h5 class="experience-sub-title">Freelance Projects / 2020 – 2021</h5>
+                        <experience-description>Built static websites with HTML, CSS, and JavaScript. Practiced clean code and responsive design.</experience-description>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center resume-download-cv"><button class="btn-primary">Download CV</button></div>
+        </section>
 
     </main>
-    <footer></footer>
+    <footer class="secondary-bg">
+        <div class="footer-colum">
+            <h3 class="section-title">Let's Connect</h3>
+        <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div>
+            <a href=""><img src="images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="images/icons/insta.png" alt=""></a>
+            <a href=""><img src="images/icons/twitter.png" alt=""></a>
+        </div>
+        </div>
+        
+        <div class="footer-colum">
+            <h3 class="section-title">Let's Inbox Me</h3>
+        <form action="">
+            <Input type="text" placeholder="Your Name"></Input>
+            <input type="email" name="" id="" placeholder="Your Email">
+            <textarea name="" id="" cols="30" rows="20" placeholder="Massage"></textarea>
+            <input class="btn-primary" type="submit" value="Submit">
+        </form>
+        </div>
+        
+    </footer>
 </body>
 </html>
